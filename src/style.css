@@ -1,4 +1,32 @@
-body{
+*{
   margin: 0;
   box-sizing: border-box;
 }
+
+.main-header{
+  display: flex;
+  padding: 0.5rem 15%;
+  gap: 1rem;
+  >div{
+    flex-grow: 1;
+  }
+  & nav{
+    flex-grow: 2;
+  }
+}
+
+
+
+
+
+/* #REGION DEBUG SECTION */
+.debug .main-header{
+  height: 87px;
+  background-color: rgb(201, 132, 222); 
+}
+.debug .main-header div, .debug nav{
+  background-color: gold;
+  height: 100%;
+}
+
+/* #REGION-END DEBUG SECTION */
