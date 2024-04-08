@@ -1,6 +1,19 @@
 <script>
     export default{
-        name: 'AppHeader'
+        name: 'AppHeader',
+
+        data(){
+            return{
+                h_menu_items: [
+                    'Home',
+                    'Pages',
+                    'Courses',
+                    'Features',
+                    'Blog',
+                    'Shop',
+                ]
+            }
+        }
     }
 </script>
 
@@ -13,24 +26,9 @@
             
             <nav class="nav">
                 <ul>
-                    <li>Home 
+                    <li v-for="h_item in h_menu_items">{{h_item}} 
                         <i class="fa-solid fa-chevron-down"></i>
                     </li>
-                    <li>Pages 
-                        <i class="fa-solid fa-chevron-down"></i>
-                    </li>                    
-                    <li>Courses 
-                        <i class="fa-solid fa-chevron-down"></i>
-                    </li> 
-                    <li>Features 
-                        <i class="fa-solid fa-chevron-down"></i>
-                    </li> 
-                    <li>Blog 
-                        <i class="fa-solid fa-chevron-down"></i>
-                    </li> 
-                    <li>Shop 
-                        <i class="fa-solid fa-chevron-down"></i>
-                    </li> 
                     <li><i class="fa-regular fa-circle-user"></i></li>
                 </ul>
             </nav>
