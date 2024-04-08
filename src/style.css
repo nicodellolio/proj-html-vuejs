@@ -1,17 +1,71 @@
-*{
-  margin: 0;
-  box-sizing: border-box;
+:root{
+  --bg-primary: #ffffff;
+  --bg-btn: #20ad96;
+  --bg-text-secondary: #3f3a64;
+  --bg-secondary: #f5f7fa;
+  --bg-tertiary: #f8f8f8;
+  --bg-quaternary: #f5f1ed;
+  --bg-text-primary: #696969;
+  --bg-text-tertiary: #8c89a2;
 }
 
-.main-header{
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Tahoma, sans-serif
+}
+
+.main-header {
   display: flex;
-  padding: 0.5rem 15%;
+  padding: 0.5rem 15% 0.25rem;
   gap: 1rem;
-  >div{
+  font-size: 1.15rem;
+  line-height: 5;
+  color:#696969;
+  box-shadow: 0px 15px 10px -15px #8c89a267;
+
+  .logo {
+    margin: 0.5rem 3rem 0 0;
+  
+    img{
+    width: 160px;
+    }
+    
+  }
+
+  >div {
     flex-grow: 1;
   }
-  & nav{
+
+  & nav {
     flex-grow: 2;
+
+    ul {
+      list-style: none;
+      display: flex;
+      gap: 2rem;
+
+      .fa-solid {
+        font-size: 0.75rem;
+      }
+    }
+  }
+
+  .input-box{
+    width: 300px;
+    margin-left: -4rem;
+    & input, .fa-search{
+      font-size: 1.15rem;
+      background-color: var(--bg-secondary);
+      border: none;
+    }
+    & input{
+      padding: 1rem 1.5rem;
+    }
+    .fa-search{
+      padding: 18px;
+    }
+
   }
 }
 
@@ -20,13 +74,15 @@
 
 
 /* #REGION DEBUG SECTION */
-.debug .main-header{
+/* .debug .main-header {
   height: 87px;
-  background-color: rgb(201, 132, 222); 
+  background-color: rgb(201, 132, 222);
 }
-.debug .main-header div, .debug nav{
+
+.debug .main-header div,
+.debug nav {
   background-color: gold;
   height: 100%;
-}
+} */
 
 /* #REGION-END DEBUG SECTION */
