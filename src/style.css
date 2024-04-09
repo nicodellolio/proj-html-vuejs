@@ -12,7 +12,7 @@
 * {
   margin: 0;
   box-sizing: border-box;
-  font-family: Verdana, Tahoma, sans-serif
+  font-family: "Poppins", sans-serif;
 }
 
 .main-header {
@@ -25,7 +25,7 @@
   box-shadow: 0px 15px 10px -15px #8c89a267;
 
   .logo {
-    margin: 0.5rem 3rem 0 0;
+    margin: 0.5rem 5rem 0 0;
 
     img {
       width: 175px;
@@ -53,7 +53,6 @@
 
   .input-box {
     width: 300px;
-    margin-left: -4rem;
 
     & input,
     .fa-search {
@@ -64,21 +63,103 @@
 
     & input {
       padding: 1rem 1.5rem;
+      width: 200px;
     }
 
     .fa-search {
-      padding: 18px;
+      padding: 20px 20px 22px;
     }
 
   }
 }
 
 .jumbo-top {
+  margin: auto;
   position: relative;
   display: flex;
   justify-content: center;
-  gap: 3rem;
+  gap: 5%;
   padding-top: 3rem;
+  width: 65%;
+
+  .jumbo-text{
+    width: calc(100% - 620px);
+    align-content: center;
+    color: #c6c4d1;
+    font-weight: 500;
+    font-size: 1.2rem;
+
+    h1{
+      color: var(--bg-text-secondary);
+      font-size: 3rem;
+      font-weight: 600;
+      margin: -20% 0 1rem;
+    }
+
+    button{
+      margin: 2rem 0 2rem;
+      padding: 1rem 3rem;
+      color: var(--bg-primary);
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      font-weight: 600;
+      word-spacing: 2px;
+      background-color: var(--bg-btn);
+      cursor: pointer;
+    }
+
+    aside{
+      font-weight: 400;
+      span, .fa-solid{
+        font-weight: 600;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .jumbo-image{
+    max-width: 620px ;
+    position: relative;
+    .main-image{
+      border-radius: 100%;
+      width: 100%;
+    }
+
+    .square-dashed-up, .square-dashed-down{
+      position: absolute;
+      left: -60px;
+      top: 34%;
+      z-index: -1;
+      height: 110px;
+    }
+
+    .square-dashed-down{
+      top: 57%;
+    }
+
+    .square-dashed-right{
+      position: absolute;
+      z-index: -1;
+      bottom: 10px;
+      right: 15%;
+      height: 180px;
+    }
+    .circle-jumbo{
+      position: absolute;
+      right: -18%;
+      top: 15%;
+    }
+    .fa-circle{
+      font-size: 3.5rem;
+      position: absolute;
+      left: -3%;
+      bottom: 23%;
+      color: #ecc5ab;
+    }
+    
+  }
 }
 
 .quick-access {
@@ -86,11 +167,41 @@
   right: 0;
   top: 15%;
   background-color: var(--bg-tertiary);
-
+  box-shadow: -18px 1px 10px -10px #8c89a267;
+  
+  
   & ul {
     list-style: none;
+    padding-left: 0;
+    
+    
+    li{
+      width: 25px;
+      font-size: 25px;
+      margin:0.5rem 0.5rem;
+      img{
+        width: 100%;
+      }
+    }
   }
 }
+
+.jumbo-sponsor{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem auto;
+  gap: 1rem;
+  padding: 1rem;
+  width: 65%;
+  align-items: center;
+
+  img{
+    height: fit-content;
+    filter: opacity(0.5);
+  }
+
+}
+
 
 .FeOnCo {
   text-align: center;
@@ -101,7 +212,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  width: 75%;
+  width: 65%;
 
   .course {
     width: 50%;
@@ -116,7 +227,7 @@
   }
 
   .companionship-benefits {
-    width: 75%;
+    width: 65%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -129,7 +240,7 @@
   }
 
   .companionship-main {
-    width: 75%;
+    width: 65%;
     margin: 0 auto;
     margin-top: 3rem;
   }
@@ -159,7 +270,7 @@
   .get-started {
     margin: 0 auto;
     margin-top: 5%;
-    width: 75%;
+    width: 65%;
   }
 }
 
@@ -209,41 +320,8 @@
   height: 100%;
 } */
 
-.debug .jumbotron {
-  height: 845px;
-  background-color: rgb(121, 183, 121);
-}
 
-.debug .jumbo-text,
-.debug .jumbo-image {
-  height: 630px;
-  background-color: yellow;
-}
 
-.debug .jumbo-text {
-  width: 25%;
-}
-
-.debug .jumbo-image {
-  width: 30%;
-}
-
-.debug .jumbo-sponsor {
-  background-color: grey;
-  height: 143px;
-  width: 75%;
-  display: flex;
-  justify-content: space-evenly;
-  margin: 0 auto;
-  gap: 1rem;
-  padding: 1rem;
-}
-
-.debug .sponsor-img {
-  background-color: red;
-  height: 100%;
-  flex-grow: 1;
-}
 
 .debug .FeOnCo {
   background-color: salmon;

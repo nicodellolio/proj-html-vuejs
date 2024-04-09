@@ -34,7 +34,7 @@ export default {
         </nav>
 
         <div class="input-box">
-            <input type="text" placeholder="Serch..">
+            <input type="text" placeholder="Search..">
             <i class="fa fa-search" aria-hidden="true"></i>
         </div>
     </div>
