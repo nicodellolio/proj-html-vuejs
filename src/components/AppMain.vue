@@ -316,12 +316,21 @@ export default {
             </div>
             
             <div class="dots">
-                <i class="fa-solid fa-ellipsis"></i>
+                <span>.</span>
+                <span>.</span>
+                <span>.</span>
+                <span>.</span>
             </div>
 
             <div class="get-started">
-                <h5>Lorem, ipsum dolor.</h5>
-                <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                <h2>Start today for getting </h2>
+                <h2>Online Certification</h2>
+                <h1>You can be your own guiding star with our help!</h1>
+                <button>Get started now</button>
+
+                <img class="stripes-shape" src="/public/images/maxcoach-shape-01.png" alt="">
+                <img class="circle-shape" src="/public/images/maxcoach-shape-02.png" alt="">
+                <i class="fa-regular fa-circle" aria-hidden="true"></i>
             </div>
         </div>
 

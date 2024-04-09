@@ -530,26 +530,29 @@
         color: var(--bg-text-secondary);
       }
 
-      p{
+      p {
         color: var(--bg-text-primary)
       }
 
-      .reviewed-person{
+      .reviewed-person {
         margin-top: 2rem;
         display: flex;
         align-items: center;
         gap: 1rem;
-        img{
-          width: 100px ;
+
+        img {
+          width: 100px;
           border-radius: 100%;
         }
-        h4{
+
+        h4 {
           font-size: 1.25rem;
           margin-bottom: 0.75rem;
           text-transform: uppercase;
           font-weight: 500;
         }
-        aside{
+
+        aside {
           color: var(--bg-text-tertiary);
         }
       }
@@ -563,22 +566,72 @@
   }
 }
 
-.dots{
-  font-size: 3rem;
+.dots {
+  font-size: 4.5rem;
   letter-spacing: 1rem;
-  margin-top: 2rem;
+  color: var(--bg-text-ordinary);
+  span:first-child{
+    color: var(--bg-text-secondary);
+    font-size: 6rem;
+  }
 }
-
-
-
-
 
 .get-started {
   margin: 0 auto;
-  margin-top: 5%;
+  margin-top: 3rem;
   width: 65%;
-}
+  position: relative;
+  padding-bottom: 3%;
 
+  h2 {
+    font-weight: 600;
+    display: inline;
+  }
+
+  h2:nth-child(2) {
+    color: var(--bg-btn);
+    font-weight: 400;
+  }
+
+  h1 {
+    font-weight: 600;
+  }
+
+  button {
+    margin: 2rem 0 2rem;
+    padding: 1rem 5rem;
+    color: var(--bg-primary);
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    word-spacing: 2px;
+    background-color: var(--bg-btn);
+    cursor: pointer;
+  }
+
+  img,
+  .fa-circle {
+    position: absolute;
+  }
+
+  .stripes-shape {
+    left: 2rem;
+  }
+
+  .circle-shape {
+    right: 0;
+  }
+
+  .fa-circle {
+    font-size: 4rem;
+    color: #ecc5ab;
+    opacity: 0.6;
+    left: 1.5rem;
+    top: 1rem;
+  }
+
+}
 
 .our-numbers {
   padding-top: 3rem;
@@ -670,25 +723,24 @@
   height: 593px;
 } */
 
-.debug .topLearners {
-  /* background-color: palegreen; */
+/* .debug .topLearners {
+  background-color: palegreen;
   height: 1038px;
-}
+} */
 
 /* .debug .topLearners-head {
   background-color: green;
   height: 229px;
 } */
 
-.debug .topLearners-reviews {
+/* .debug .topLearners-reviews {
   height: 400px;
-}
+} */
 
-
-.debug .get-started {
+/* .debug .get-started {
   background-color: paleturquoise;
   height: 274px;
-}
+} */
 
 .debug .our-numbers {
   background-color: yellow;

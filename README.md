@@ -20,6 +20,7 @@ ____________________________________________
 
 # DAY 3
 
+- dots before getstarted
 - Complete (if necessary) the previous day work
 - Add hover effects on the jumbo button and on the -Featured Online Courses- cards
 - Merge the components into the App.vue with the relative props
