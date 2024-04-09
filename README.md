@@ -3,10 +3,10 @@
 ## DAY 1
 <!-- - Set a coloured-block scheme through PenPot -->
 <!-- - Create then the main 3 component that we'll need: Heder, Main, Footer -->
-- Insert the coloured block into the Header
- -complete then the layout with images and dynamically insert text and menu items, finish then with style sheet
+<!-- - Insert the coloured block into the Header
+ -complete then the layout with images and dynamically insert text and menu items, finish then with style sheet -->
 
-- Insert the coloured block into the Main
+<!-- - Insert the coloured block into the Main -->
 
 ____________________________________________
 
@@ -16,6 +16,7 @@ ____________________________________________
 - Insert the coloured block into the Footer
  - complete then the layout (as ln.7)
 
+- add menu item as anchor tag in the Header
 
 # DAY 3
 

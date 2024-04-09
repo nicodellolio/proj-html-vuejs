@@ -63,38 +63,201 @@ export default {
 
         <div class="FeOnCo">
             <div class="FeOnCo-head">
-                <h5>Lorem ipsum dolor sit.</h5>
-                <h1>Lorem, ipsum dolor.</h1>
+                <h5>Stimulated to learn?</h5>
+                <h1>Featured Online Courses</h1>
             </div>
             <div class="FeOnCo-courses">
-                <div class="course"></div>
-                <div class="course"></div>
-                <div class="course"></div>
-                <div class="course"></div>
-                <div class="course"></div>
-                <div class="course"></div>
+                <div class="course">
+                    <div class="course-img c-i-tl"></div>
+                    <div class="course-text">
+                        <h2>$40</h2>
+                        <h3>.00</h3>
+
+                        <p class="course-description">
+                            Learning to Write as a Professional Author
+                        </p>
+                        <span>
+                            <i class="fa-regular fa-file-lines"></i>
+                            20 Lessons
+                        </span>
+                        <span>
+                            <i class="fa-regular fa-file-lines"></i>
+                            50 Students
+                        </span>
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-img c-i-tr"></div>
+                    <div class="course-text">
+                        <h2>Free</h2>
+
+                        <p class="course-description">
+                            Customer-centric Info-Tech Strategies
+                        </p>
+                        <span>
+                            <i class="fa-regular fa-file-lines"></i>
+                            24 Lessons
+                        </span>
+                        <span>
+                            <i class="fa-regular fa-file-lines"></i>
+                            769 Students
+                        </span>
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-img c-i-ml"></div>
+                    <div class="course-text">
+                        <h2>$19</h2>
+                        <h3>.00</h3>
+
+                        <p class="course-description">
+                            Open Programming Courses for Everyone: Phyton
+                        </p>
+                        <span>
+                            <i class="fa-regular fa-file-lines"></i>
+                            17 Lessons
+                        </span>
+                        <span>
+                            <i class="fa-regular fa-file-lines"></i>
+                            62 Students
+                        </span>
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-img c-i-mr"></div>
+                    <div class="course-text">
+                        <h2>$26</h2>
+                        <h3>.00</h3>
+
+                        <p class="course-description">
+                            Academic Listening and Note-taking
+                        </p>
+                        <span>
+                            <i class="fa-regular fa-file-lines"></i>
+                            14 Lessons
+                        </span>
+                        <span>
+                            <i class="fa-regular fa-file-lines"></i>
+                            67 Students
+                        </span>
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-img c-i-bl"></div>
+                    <div class="course-text">
+                        <h2>$39</h2>
+                        <h3>.00</h3>
+
+                        <p class="course-description">
+                            Master jQuery in a Short Period of Time
+                        </p>
+                        <span>
+                            <i class="fa-regular fa-file-lines"></i>
+                            6 Lessons
+                        </span>
+                        <span>
+                            <i class="fa-regular fa-file-lines"></i>
+                            51 Students
+                        </span>
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-img c-i-br"></div>
+                    <div class="course-text">
+                        <h2>$59</h2>
+                        <h3>.00</h3>
+
+                        <p class="course-description">
+                            Introducing to Javascript for Beginners
+                        </p>
+                        <span>
+                            <i class="fa-regular fa-file-lines"></i>
+                            14 Lessons
+                        </span>
+                        <span>
+                            <i class="fa-regular fa-file-lines"></i>
+                            76 Students
+                        </span>
+                    </div>
+                </div>
+
             </div>
-            <button>Lorem, ipsum.</button>
+            <button>View all courses 
+                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </button>
         </div>
 
         <div class="companionship">
             <div class="companionship-head">
-                <h6>Lorem, ipsum dolor.</h6>
-                <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+                <h5>Maxcoach available courses</h5>
+                <h1>Access </h1>
+                <h1>Smart Tutoring </h1>
+                <h1>Program For Benefits</h1>
             </div>
 
             <div class="companionship-benefits">
-                <div class="benefits"></div>
-                <div class="benefits"></div>
-                <div class="benefits"></div>
+                <div class="benefit">
+                    <img src="/public/images/home-2-image-box-01.png" alt="">
+                    <h2>Customize Preferences</h2>
+                    <p>Learners are given the right to arrange and customise their study schedule and timetable based on preferences.</p>
+                    <a href="#">Start here
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <div class="benefit">
+                    <img src="/public/images/about-us-02-image-box-02.png" alt="">
+                    <h2>Cloud Storage</h2>
+                    <p>You can store online lessons via online cloud or download  to your device and revise lessons on the way.</p>
+                    <a href="#">Get Free Quote
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <div class="benefit">
+                    <img src="/public/images/home-2-image-box-03.png" alt="">
+                    <h2>Multimedia Channels</h2>
+                    <p>We provide study materials with various formats: video, audio, slides, doc, prints, books and applications.</p>
+                    <a href="#">Start now
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </a>
+                </div>
             </div>
 
             <div class="companionship-main">
-                <img src="" alt="">
-                <div class="comp-main-text"></div>
+                <div class="compan-image-box">
+                    <img class="main-image" src="/public/images/home-2-popup-video-poster.jpg" alt="">
+
+                    <img class="yt" src="/public/images/icon-youtube-play.png" alt="">
+
+                    <img class="rombo-dashed" src="/public/images/maxcoach-shape-05.png" alt="">
+
+                    <img class="square-dashed" src="/public/images/maxcoach-shape-07-150x150.png" alt="">
+
+                    <i class="fa-solid fa-cloud"></i>
+
+                    <i class="fa-regular fa-circle" aria-hidden="true"></i>
+
+                </div>
+
+                <div class="compan-text-box">
+                    <h5>Get started </h5>
+                    <h5 class="bg-nd">effortlesslsy</h5>
+
+                    <h1 class="enjoy">Enjoy Our</h1>
+                    <h1>Companionship</h1>
+
+                    <p>Sneek peek into what has in store for you on our online teaching and mentoring portal. Seek for some gidden gint of early-bird rewards as well.</p>
+
+                    <a href="#">Download free guidebook 
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </a>
+
+                </div>
             </div>
         </div>
 
+        <img class="design-wave" src="/public/images/wave.svg" alt="">
+
+        
         <div class="topLearners">
             <div class="topLearners-head">
                 <h6>Lorem, ipsum dolor amet.</h6>
