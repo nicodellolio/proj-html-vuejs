@@ -76,4 +76,6 @@ export default {
 
 </template>
 
-<style scoped></style>
+<style lang="css">
+    @import url(/src/assets/partials/css/_footer.css);
+</style>

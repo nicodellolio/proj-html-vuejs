@@ -1,0 +1,57 @@
+/* FOOTER STYLE SECTION */
+.main-footer {
+    padding: 5rem 0;
+    position: relative;
+    background-color: var(--bg-secondary);
+
+    .footer-box {
+        width: 65%;
+        display: flex;
+        margin: auto;
+
+        >div {
+            flex-grow: 1;
+        }
+
+        ul {
+            list-style: none;
+
+            a,
+            li {
+                margin: 0.75rem 0 0 -1.2rem;
+                text-decoration: none;
+                color: var(--bg-text-tertiary);
+                font-weight: 500;
+            }
+        }
+
+        .explore ul {
+            height: 140px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+
+        .address li {
+            margin-left: -2.2rem;
+        }
+    }
+
+    .credits {
+        text-align: center;
+        padding-top: 3rem;
+        color: var(--bg-text-ordinary);
+    }
+}
+
+.go-up a {
+    position: absolute;
+    border-radius: 100%;
+    right: 2rem;
+    bottom: 2rem;
+    padding: .7rem 1.3rem;
+    background-color: var(--bg-btn);
+    width: fit-content;
+    font-size: 1.5rem;
+    color: var(--bg-primary);
+}

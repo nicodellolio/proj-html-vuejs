@@ -75,4 +75,6 @@ export default {
     
 </template>
 
-<style scoped></style>
+<style>
+    @import url(/src/assets/partials/css/_header.css);
+</style>

@@ -452,4 +452,6 @@ export default {
     </div>
 </template>
 
-<style scoped></style>
+<style lang="css">
+ @import url(/src/assets/partials/css/_main.css);
+</style>
