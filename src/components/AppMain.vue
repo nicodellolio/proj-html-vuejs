@@ -336,30 +336,31 @@ export default {
 
         <div class="our-numbers">
             <div class="number">
+
             </div>
 
             <div class="number">
-                <h5>Lorem, ipsum.</h5>
-                <h2>1984</h2>
-                <h6>Lorem, ipsum dolor.</h6>
+                <h2>Successfully trained</h2>
+                <h1>1790</h1>
+                <h3>enrolled learners</h3>
             </div>
 
             <div class="number">
-                <h5>Lorem, ipsum.</h5>
-                <h2>19</h2>
-                <h6>Lorem, ipsum dolor.</h6>
+                <h2>Proudly Received</h2>
+                <h1>19</h1>
+                <h3>Countrywide awards</h3>
             </div>
 
             <div class="number">
-                <h5>Lorem, ipsum.</h5>
-                <h2>84</h2>
-                <h6>Lorem, ipsum dolor.</h6>
+                <h2>Firmly established</h2>
+                <h1>24</h1>
+                <h3>Local Branches</h3>
             </div>
 
             <div class="number">
-                <h5>Lorem, ipsum.</h5>
-                <h2>1984</h2>
-                <h6>Lorem, ipsum dolor.</h6>
+                <h2>Getting Featured on</h2>
+                <h1>1090</h1>
+                <h3>Blog Posts</h3>
             </div>
 
             <div class="number">
