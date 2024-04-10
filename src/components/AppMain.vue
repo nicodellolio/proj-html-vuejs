@@ -17,7 +17,7 @@ export default {
 </script>
 
 <template>
-    <div class="main debug">
+    <div class="main">
 
         <section class="jumbotron">
             <div class="jumbo-top">

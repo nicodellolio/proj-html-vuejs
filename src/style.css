@@ -74,6 +74,7 @@
   }
 }
 
+
 .jumbo-top {
   margin: auto;
   position: relative;
@@ -836,114 +837,169 @@
     bottom: 10%;
     color: var(--bg-text-ordinary);
   }
-
-
 }
 
+.main-footer{
+  padding: 5rem 0;
+  position: relative;
+  background-color: var(--bg-secondary) ;
+
+  .footer-box{
+    width: 65%;
+    display: flex;
+    margin: auto;
+  
+    > div{
+      flex-grow: 1;
+    }
+
+
+    ul{
+      list-style: none;
+      a, li{
+        margin: 0.75rem 0 0 -1.2rem;
+        text-decoration: none;
+        color: var(--bg-text-tertiary);
+        font-weight: 500;
+      }
+    }
+    
+    .explore ul{
+      height: 140px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+
+    .address li{
+      margin-left: -2.2rem;
+    }
+  }
+  .credits{
+    text-align: center;
+    padding-top: 3rem;
+    color: var(--bg-text-ordinary);
+  }
+}
+
+.go-up{
+  position: absolute;
+  border-radius: 100%;
+  right: 2rem;
+  bottom: 2rem;
+  padding: .7rem 1.3rem;
+  background-color: var(--bg-btn);
+  width: fit-content;
+  font-size: 1.5rem;
+  a{
+    color: var(--bg-primary);
+  }
+}
 
 
 
 
 /* #REGION DEBUG SECTION */
-/* .debug .main-header {
-  height: 87px;
-  background-color: rgb(201, 132, 222);
-}
 
-.debug .main-header div,
-.debug nav {
-  background-color: gold;
-  height: 100%;
-} */
+  /* .debug .main-header {
+    height: 87px;
+    background-color: rgb(201, 132, 222);
+  }
 
-/* .debug .FeOnCo {
-  background-color: salmon;
-  height: 1122px;
-} */
+  .debug .main-header div,
+  .debug nav {
+    background-color: gold;
+    height: 100%;
+  } */
 
-/* .debug .FeOnCo-head {
-  background-color: #c80084;
-  height: 204px;
-} */
+  /* .debug .FeOnCo {
+    background-color: salmon;
+    height: 1122px;
+  } */
 
-/* .debug .FeOnCo-courses {
-  padding: 1rem;
-} */
+  /* .debug .FeOnCo-head {
+    background-color: #c80084;
+    height: 204px;
+  } */
 
-/* .debug .course {
-  background-color: rgb(245, 183, 176);
-} */
+  /* .debug .FeOnCo-courses {
+    padding: 1rem;
+  } */
 
-/* .debug .companionship {
-  background-color: skyblue;
-  height: 1338px;
-} */
+  /* .debug .course {
+    background-color: rgb(245, 183, 176);
+  } */
 
-/* .debug .companionship-head {
-  background-color: paleturquoise;
-  height: 204px;
-} */
+  /* .debug .companionship {
+    background-color: skyblue;
+    height: 1338px;
+  } */
 
-/* .debug .companionship-benefits {
-  height: 384px;
-} */
+  /* .debug .companionship-head {
+    background-color: paleturquoise;
+    height: 204px;
+  } */
 
-/* .debug .benefit {
-  background-color: #1326cc;
-} */
+  /* .debug .companionship-benefits {
+    height: 384px;
+  } */
 
-/* .debug .companionship-main {
-  background-color: blueviolet;
-  height: 593px;
-} */
+  /* .debug .benefit {
+    background-color: #1326cc;
+  } */
 
-/* .debug .topLearners {
-  background-color: palegreen;
-  height: 1038px;
-} */
+  /* .debug .companionship-main {
+    background-color: blueviolet;
+    height: 593px;
+  } */
 
-/* .debug .topLearners-head {
-  background-color: green;
-  height: 229px;
-} */
+  /* .debug .topLearners {
+    background-color: palegreen;
+    height: 1038px;
+  } */
 
-/* .debug .topLearners-reviews {
-  height: 400px;
-} */
+  /* .debug .topLearners-head {
+    background-color: green;
+    height: 229px;
+  } */
 
-/* .debug .get-started {
-  background-color: paleturquoise;
-  height: 274px;
-} */
+  /* .debug .topLearners-reviews {
+    height: 400px;
+  } */
 
-/* .debug .our-numbers {
-  background-color: yellow;
-  height: 410px;
-} */
+  /* .debug .get-started {
+    background-color: paleturquoise;
+    height: 274px;
+  } */
 
-/* .debug .number {
-  height: 291px;
-  background-color: gold
-} */
+  /* .debug .our-numbers {
+    background-color: yellow;
+    height: 410px;
+  } */
 
-/* .debug .best-blogs {
-  background-color: rebeccapurple;
-  height: 653px;
-} */
+  /* .debug .number {
+    height: 291px;
+    background-color: gold
+  } */
 
-/* .debug .best-blogs div {
-  background-color: white;
-  height: 427px;
-} */
+  /* .debug .best-blogs {
+    background-color: rebeccapurple;
+    height: 653px;
+  } */
 
-/* .debug .newsletter {
-  background-color: palevioletred;
-  height: 427px;
-} */
+  /* .debug .best-blogs div {
+    background-color: white;
+    height: 427px;
+  } */
 
-/* .debug .newsletter-head {
-  background-color: red;
-  height: 200px;
-} */
+  /* .debug .newsletter {
+    background-color: palevioletred;
+    height: 427px;
+  } */
 
-/* #REGION-END DEBUG SECTION */
+  /* .debug .newsletter-head {
+    background-color: red;
+    height: 200px;
+  } */
+
+/* #END-REGION DEBUG SECTION */
