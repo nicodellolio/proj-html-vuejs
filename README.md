@@ -8,21 +8,21 @@
 
 <!-- - Insert the coloured block into the Main -->
 
-____________________________________________
+_______________________________________
 
 ## DAY 2
-- Complete the Main-layout with text, sizes and style
+<!-- - Complete the Main-layout with text, sizes and style -->
 
-- Insert the coloured block into the Footer
- - complete then the layout (as ln.7)
+<!-- - Insert the coloured block into the Footer
+ - complete then the layout (as ln.7) -->
 
-- add menu item as anchor tag in the Header
+<!-- - add menu item as anchor tag in the Header -->
 
 # DAY 3
 
-- dots before getstarted
-- Complete (if necessary) the previous day work
-- Add hover effects on the jumbo button and on the -Featured Online Courses- cards
+<!-- - dots before getstarted -->
+<!-- - Complete (if necessary) the previous day work -->
+- Add hover effects on the jumbo button and on the Featured Online Courses- cards
 - Merge the components into the App.vue with the relative props
 - Add a dropdown menu on the Pages item in the Header component
 - Add eventual bonuses (hover, carousel, animations)

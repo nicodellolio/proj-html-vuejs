@@ -26,8 +26,11 @@ export default {
 
         <nav class="nav">
             <ul>
-                <li v-for="h_item in h_menu_items">{{ h_item }}
-                    <i class="fa-solid fa-chevron-down"></i>
+                <li v-for="h_item in h_menu_items">
+                    <a href="">
+                        {{ h_item }}
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </a>
                 </li>
                 <li><i class="fa-regular fa-circle-user"></i></li>
             </ul>
