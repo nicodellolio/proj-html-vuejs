@@ -595,6 +595,7 @@
 
   h1 {
     font-weight: 600;
+    font-size: 2rem;
   }
 
   button {
@@ -670,13 +671,88 @@
 }
 
 .best-blogs {
-  display: flex;
-  justify-content: space-around;
-  gap: 2rem;
+  background-color: #ecc5ab6e;
   padding: 5% 10%;
+
+
+  
+  .blogs-box{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 82%;
+    gap: 3rem;
+  }
 
   .best-blog {
     width: calc(100% / 3);
+    background-color: var(--bg-primary);
+    padding-bottom: 1.5rem;
+    border-radius: 10px;
+
+    h3, h4, span{
+      padding: 1.5rem;
+    }
+
+    h4{
+      padding-top: 0;
+      font-size: 1.25rem;
+      font-weight: 600;
+    }
+    h3{
+      text-transform: uppercase;
+      color: var(--bg-text-tertiary);
+      font-weight: 600;
+      margin-bottom: 1rem;
+      padding-bottom: 0;
+    }
+    span{
+      color: var(--bg-text-tertiary);
+    }
+    img{
+      width: 100%;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+    }
+  }
+  .bb-text{
+    padding-top: 1rem;
+    text-align: left;
+    background-color: transparent;
+    width: 40%;
+
+    h3{
+      padding: 1rem 0 0;
+    }
+
+    h1 {
+      color: var(--bg-text-secondary);
+      font-size: 2.2rem;
+      font-weight: 600;
+      display: inline;
+    }
+    
+    h1:nth-child(3) {
+      color: var(--bg-btn);
+      font-weight: 300;
+      margin-bottom: 1rem;
+    }
+
+    ul{
+      color: var(--bg-text-secondary);
+      margin-top: 2.5rem;
+      list-style: none;
+      li{
+        margin: 1.5rem 0 0 -2rem;
+        font-weight: 600;
+      }
+
+      .fa{
+        margin-right: 1rem;
+      }
+    }
+
+    
   }
 }
 
@@ -776,15 +852,15 @@
   background-color: gold
 } */
 
-.debug .best-blogs {
+/* .debug .best-blogs {
   background-color: rebeccapurple;
   height: 653px;
-}
+} */
 
-.debug .best-blogs div {
+/* .debug .best-blogs div {
   background-color: white;
   height: 427px;
-}
+} */
 
 .debug .subscribe {
   background-color: palevioletred;
