@@ -163,7 +163,7 @@
       position: absolute;
       left: -3%;
       bottom: 23%;
-      color: #ecc5ab;
+      color: var(--bg-quaternary);
     }
 
   }
@@ -404,7 +404,7 @@
       }
 
       .fa-cloud {
-        color: #ecc5ab;
+        color: var(--bg-quaternary);
         font-size: 10rem;
         position: absolute;
         left: -15%;
@@ -418,7 +418,7 @@
         position: absolute;
         right: -20%;
         top: -10%;
-        color: #ecc5ab;
+        color: var(--bg-quaternary);
       }
 
       .square-dashed {
@@ -570,7 +570,8 @@
   font-size: 4.5rem;
   letter-spacing: 1rem;
   color: var(--bg-text-ordinary);
-  span:first-child{
+
+  span:first-child {
     color: var(--bg-text-secondary);
     font-size: 6rem;
   }
@@ -626,7 +627,7 @@
 
   .fa-circle {
     font-size: 4rem;
-    color: #ecc5ab;
+    color: var(--bg-quaternary);
     opacity: 0.6;
     left: 1.5rem;
     top: 1rem;
@@ -648,20 +649,20 @@
     padding: 5rem 0;
     background-color: var(--bg-primary);
 
-    h2{
+    h2 {
       color: var(--bg-text-secondary);
       width: 50%;
       margin: auto;
       font-weight: 600;
     }
 
-    h1{
-      color:var(--bg-btn);
+    h1 {
+      color: var(--bg-btn);
       padding-top: 0.5rem;
       font-size: 4rem;
     }
 
-    h3{
+    h3 {
       text-transform: uppercase;
       color: var(--bg-text-tertiary);
       font-weight: 600;
@@ -671,12 +672,12 @@
 }
 
 .best-blogs {
-  background-color: #ecc5ab6e;
+  background-color: var(--bg-quaternary);
   padding: 5% 10%;
 
 
-  
-  .blogs-box{
+
+  .blogs-box {
     display: flex;
     justify-content: space-around;
     margin: auto;
@@ -690,38 +691,44 @@
     padding-bottom: 1.5rem;
     border-radius: 10px;
 
-    h3, h4, span{
+    h3,
+    h4,
+    span {
       padding: 1.5rem;
     }
 
-    h4{
+    h4 {
       padding-top: 0;
       font-size: 1.25rem;
       font-weight: 600;
     }
-    h3{
+
+    h3 {
       text-transform: uppercase;
       color: var(--bg-text-tertiary);
       font-weight: 600;
       margin-bottom: 1rem;
       padding-bottom: 0;
     }
-    span{
+
+    span {
       color: var(--bg-text-tertiary);
     }
-    img{
+
+    img {
       width: 100%;
       border-top-right-radius: 10px;
       border-top-left-radius: 10px;
     }
   }
-  .bb-text{
+
+  .bb-text {
     padding-top: 1rem;
     text-align: left;
     background-color: transparent;
     width: 40%;
 
-    h3{
+    h3 {
       padding: 1rem 0 0;
     }
 
@@ -731,39 +738,106 @@
       font-weight: 600;
       display: inline;
     }
-    
+
     h1:nth-child(3) {
       color: var(--bg-btn);
       font-weight: 300;
       margin-bottom: 1rem;
     }
 
-    ul{
+    ul {
       color: var(--bg-text-secondary);
       margin-top: 2.5rem;
       list-style: none;
-      li{
+
+      li {
         margin: 1.5rem 0 0 -2rem;
         font-weight: 600;
       }
 
-      .fa{
+      .fa {
         margin-right: 1rem;
       }
     }
-
-    
   }
 }
 
-.subscribe {
-  padding-top: 3rem;
+.newsletter {
+  padding-top: 5%;
   text-align: center;
+  position: relative;
+  margin-bottom: 10rem;
 
-  .subscribe-head {
-    width: 30%;
-    margin: 0 auto;
+  .newsletter-head {
+    width: 35%;
+    margin: 0 auto 3rem;
+
+    h1 {
+      color: var(--bg-text-secondary);
+      font-size: 2.2rem;
+      font-weight: 600;
+      display: inline;
+    }
+
+    h1:nth-child(2) {
+      color: var(--bg-btn);
+      font-weight: 300;
+    }
+
+    p {
+      color: var(--bg-text-tertiary);
+      font-size: 1.15rem;
+      margin-top: 1rem;
+    }
+
   }
+
+  .input-box {
+    width: 100%;
+
+    button {
+      font-size: 1rem;
+      background-color: var(--bg-btn);
+      border: none;
+      color: var(--bg-primary);
+      padding: 16px 2rem;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      font-weight: 500;
+      letter-spacing: 1px;
+    }
+
+    & input {
+      padding: 1rem 1.5rem;
+      width: 24%;
+      border: none;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      background-color: #f5f5f5;
+      font-size: 1rem;
+    }
+  }
+
+  .shape{
+    position: absolute;
+  }
+
+  .rombo-dashed{
+    right: 18%;
+    top: 20%;
+  }
+  .shape.circle{
+    right: 18%;
+    bottom: 0;
+  }
+  .fa-circle{
+    font-size: 4rem;
+    left: 15%;
+    bottom: 10%;
+    color: var(--bg-text-ordinary);
+  }
+
+
 }
 
 
@@ -862,23 +936,14 @@
   height: 427px;
 } */
 
-.debug .subscribe {
+/* .debug .newsletter {
   background-color: palevioletred;
   height: 427px;
-}
+} */
 
-.debug .subscribe-head {
+/* .debug .newsletter-head {
   background-color: red;
   height: 200px;
-}
-
-
-
-
-
-
-
-
-
+} */
 
 /* #REGION-END DEBUG SECTION */

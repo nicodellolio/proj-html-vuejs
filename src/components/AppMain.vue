@@ -397,42 +397,56 @@ export default {
                     <ul>
                         <li v-for="bbItem in bestBlogsItems">
                             <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                            {{ bbItem }}</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="best-blog">
-                        <img src="/images/artist-blog-03-480x352.jpeg" alt="">
-
-                        <h3>Artist</h3>
-                        <h4>Brush Strokes Energize Trees in Paintings</h4>
-
-                        <span><i class="fa fa-calendar" aria-hidden="true"></i>
-                        May, 15, 2020
-                        </span>                     <span><i class="fa fa-eye" aria-hidden="true"></i>
-                        688 views
-                        </span>
-                    </div>
-
-                    <div class="best-blog">
-                        <img src="/images/artist-blog-01-480x352.jpg" alt="">
-
-                        <h3>Artist</h3>
-                        <h4>Pocket-Sized Notebooks Hold Miniature Paintings</h4>
-
-                        <span><i class="fa fa-calendar" aria-hidden="true"></i>
-                        May, 15, 2020
-                        </span>                     <span><i class="fa fa-eye" aria-hidden="true"></i>
-                        603 views
-                        </span>
-                    </div>
+                            {{ bbItem }}
+                        </li>
+                    </ul>
                 </div>
+
+                <div class="best-blog">
+                    <img src="/images/artist-blog-03-480x352.jpeg" alt="">
+
+                    <h3>Artist</h3>
+                    <h4>Brush Strokes Energize Trees in Paintings</h4>
+
+                    <span><i class="fa fa-calendar" aria-hidden="true"></i>
+                        May, 15, 2020
+                    </span> <span><i class="fa fa-eye" aria-hidden="true"></i>
+                        688 views
+                    </span>
+                </div>
+
+                <div class="best-blog">
+                    <img src="/images/artist-blog-01-480x352.jpg" alt="">
+
+                    <h3>Artist</h3>
+                    <h4>Pocket-Sized Notebooks Hold Miniature Paintings</h4>
+
+                    <span><i class="fa fa-calendar" aria-hidden="true"></i>
+                        May, 15, 2020
+                    </span> <span><i class="fa fa-eye" aria-hidden="true"></i>
+                        603 views
+                    </span>
+                </div>
+            </div>
         </section>
 
-        <section class="subscribe">
-            <div class="subscribe-head"></div>
-            <input type="text">
-            <button>Lorem.</button>
+        <section class="newsletter">
+            <div class="newsletter-head">
+                <h1>Subscribe </h1>
+                <h1>Newsletters</h1>
+
+                <p>Enter your email address to register to our newsletter subscription delivered on a regular basis</p>
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Enter your email">
+                <button>Subscribe</button>
+            </div>
+
+            <img class="shape rombo-dashed" src="/images/maxcoach-shape-09.png" alt="">
+
+            <img class="shape circle" src="/images/maxcoach-shape-02.png" alt="">
+
+            <i class="shape fa-regular fa-circle" aria-hidden="true"></i>
         </section>
 
     </div>
