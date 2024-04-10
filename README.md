@@ -23,6 +23,6 @@ _______________________________________
 <!-- - dots before getstarted -->
 <!-- - Complete (if necessary) the previous day work -->
 <!-- - Add hover effects on the jumbo button and on the Featured Online Courses- cards -->
-- Add a dropdown menu on the Pages item in the Header component
+<!-- - Add a dropdown menu on the Pages item in the Header component -->
 - Add eventual bonuses (hover, carousel, animations)
 - Merge the components into the App.vue with the relative props

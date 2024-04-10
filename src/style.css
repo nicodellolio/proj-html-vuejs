@@ -621,6 +621,19 @@ button:hover {
     opacity: 0.3;
     scale: 0.95;
   }
+  
+  .re-lx:hover,
+  .re-rx:hover {
+    opacity: 1;
+    scale: 1;
+  }
+  
+  .re-lx:hover ~ .re-middle,
+  .re-rx:hover ~ .re-middle {
+    opacity: 0.3;
+    scale: 0.95;
+  }
+
 }
 
 .dots {
