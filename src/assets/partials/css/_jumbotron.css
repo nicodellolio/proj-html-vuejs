@@ -1,0 +1,140 @@
+/* JUMBOTRON STYLE SECTION */
+.jumbo-top {
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding-top: 3rem;
+    width: 65%;
+
+    .jumbo-text {
+        width: calc(100% - 620px);
+        align-content: center;
+        color: var(--bg-text-ordinary);
+        font-weight: 500;
+        font-size: 1.2rem;
+
+        h1 {
+            color: var(--bg-text-secondary);
+            font-size: 3rem;
+            font-weight: 600;
+            margin: -20% 0 1rem;
+        }
+
+        button {
+            margin: 2rem 0 2rem;
+            padding: 1rem 3rem;
+            color: var(--bg-primary);
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            font-weight: 600;
+            word-spacing: 2px;
+            background-color: var(--bg-btn);
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: var(--bg-text-secondary);
+            scale: 1.05;
+        }
+
+        aside {
+            font-weight: 400;
+
+            span,
+            .fa-solid {
+                font-weight: 600;
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .jumbo-image {
+        max-width: 620px;
+        position: relative;
+
+        .main-image {
+            border-radius: 100%;
+            width: 100%;
+        }
+
+        .square-dashed-up,
+        .square-dashed-down {
+            position: absolute;
+            left: -60px;
+            top: 34%;
+            z-index: -1;
+            height: 110px;
+        }
+
+        .square-dashed-down {
+            top: 57%;
+        }
+
+        .square-dashed-right {
+            position: absolute;
+            z-index: -1;
+            bottom: 10px;
+            right: 15%;
+            height: 180px;
+        }
+
+        .circle-jumbo {
+            position: absolute;
+            right: -18%;
+            top: 15%;
+        }
+
+        .fa-circle {
+            font-size: 3.5rem;
+            position: absolute;
+            left: -3%;
+            bottom: 23%;
+            color: var(--bg-quaternary);
+        }
+
+    }
+}
+
+.quick-access {
+    position: absolute;
+    right: 0;
+    top: 15%;
+    background-color: var(--bg-tertiary);
+    box-shadow: -18px 1px 10px -10px var(--bg-text-ordinary);
+
+
+    & ul {
+        list-style: none;
+        padding-left: 0;
+
+
+        li {
+            width: 25px;
+            font-size: 25px;
+            margin: 0.5rem 0.5rem;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.jumbo-sponsor {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem auto;
+    gap: 1rem;
+    padding: 1rem;
+    width: 65%;
+    align-items: center;
+
+    img {
+        height: fit-content;
+        filter: opacity(0.5);
+    }
+}

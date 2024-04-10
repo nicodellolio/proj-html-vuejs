@@ -1,0 +1,123 @@
+/* FEATURED ONLINE COURSES STYLE SECTION */
+
+.FeOnCo {
+    background-color: var(--bg-secondary);
+    text-align: center;
+    margin-top: 2rem;
+
+    & .FeOnCo-head {
+        padding-top: 5rem;
+        margin-bottom: 3rem;
+
+        h5 {
+            color: var(--bg-text-ordinary);
+            text-transform: uppercase;
+            font-weight: 400;
+            font-size: 1.25rem;
+        }
+
+        h1 {
+            color: var(--bg-text-secondary);
+            font-size: 2.2rem;
+            font-weight: 500;
+        }
+    }
+}
+
+.FeOnCo-courses {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+    gap: 1rem 2rem;
+
+    .course {
+        width: 40%;
+        flex-grow: 1;
+        margin: 1rem 0rem;
+        padding: 1rem 0 1rem 1rem;
+        display: flex;
+
+        & .course-img {
+            width: 180px;
+            height: 169px;
+            background-size: cover;
+            background-position: center;
+            border-radius: 50%;
+        }
+
+        .c-i-tl {
+            background-image: url(/public/images/course-02-480x298.jpg);
+        }
+
+        .c-i-tr {
+            background-image: url(/public/images/stock-full-hd-03-480x298.jpg);
+        }
+
+        .c-i-ml {
+            background-image: url(/public/images/stock-full-hd-04-480x298.jpg);
+            width: 200px;
+        }
+
+        .c-i-mr {
+            background-image: url(/public/images/stock-full-hd-06-480x298.jpg);
+        }
+
+        .c-i-bl {
+            background-image: url(/public/images/course-featured-image-01-480x298.jpg);
+        }
+
+        .c-i-br {
+            background-image: url(/public/images/stock-full-hd-05-480x298.jpg);
+        }
+    }
+
+    .course:hover {
+        background-color: #fff;
+        scale: 1.05;
+        overflow: hidden;
+    }
+
+    .course-text {
+        text-align: left;
+        margin-left: 2rem;
+        padding: 1rem 2rem 0 0;
+
+        h2,
+        h3 {
+            color: var(--bg-btn);
+            display: inline
+        }
+
+        .course-description {
+            color: var(--bg-text-secondary);
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin: 0.75rem 0 0.75rem;
+        }
+
+        span {
+            color: var(--bg-text-tertiary);
+        }
+    }
+
+}
+
+.FeOnCo button {
+    margin: 3rem 0 5%;
+    padding: 1.15rem 5rem;
+    color: var(--bg-primary);
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    word-spacing: 2px;
+    background-color: var(--bg-btn);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--bg-text-secondary);
+    scale: 1.05;
+}

@@ -1,0 +1,156 @@
+/* COMPANIONSHIP STYLE SECTION */
+
+.companionship {
+    margin-top: 2rem;
+    text-align: center;
+
+    & .companionship-head {
+        padding-top: 5rem;
+        margin-bottom: 5rem;
+
+        h5 {
+            color: var(--bg-text-ordinary);
+            text-transform: uppercase;
+            font-weight: 400;
+            font-size: 1.25rem;
+        }
+
+        h1 {
+            color: var(--bg-text-secondary);
+            font-size: 2.2rem;
+            font-weight: 600;
+            display: inline;
+        }
+
+        h1:nth-child(3) {
+            color: var(--bg-btn);
+            font-weight: 300;
+        }
+    }
+
+    .companionship-benefits {
+        width: 65%;
+        margin: 2rem auto 10%;
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+
+        .benefit {
+            text-align: left;
+            flex-grow: 1;
+        }
+
+        h2 {
+            color: var(--bg-text-secondary);
+            font-weight: 600;
+        }
+
+        p {
+            margin: 1rem auto;
+            color: var(--bg-text-primary);
+        }
+
+        a {
+            text-decoration: none;
+            color: var(--bg-text-tertiary);
+            font-weight: 800;
+            letter-spacing: 0.5px;
+        }
+    }
+
+    .companionship-main {
+        width: 65%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        gap: 10%;
+
+        .compan-image-box {
+            height: 100%;
+            position: relative;
+
+            img.yt {
+                position: absolute;
+                bottom: 45%;
+                right: 50%;
+                left: 42%;
+            }
+
+            img.rombo-dashed {
+                position: absolute;
+                left: -15%;
+                top: 5rem;
+                z-index: -1;
+            }
+
+            .fa-cloud {
+                color: var(--bg-quaternary);
+                font-size: 10rem;
+                position: absolute;
+                left: -15%;
+                top: -12%;
+                z-index: -2;
+                transform: rotate(310deg);
+            }
+
+            .fa-circle {
+                font-size: 6rem;
+                position: absolute;
+                right: -20%;
+                top: -10%;
+                color: var(--bg-quaternary);
+            }
+
+            .square-dashed {
+                position: absolute;
+                bottom: -20%;
+                right: -1rem;
+                z-index: -1;
+            }
+        }
+
+        .compan-text-box {
+            align-content: center;
+            height: 100%;
+            text-align: left;
+            padding-top: 3rem;
+
+            h5 {
+                color: var(--bg-text-tertiary);
+                text-transform: uppercase;
+                font-weight: 400;
+                font-size: 1.25rem;
+                display: inline;
+            }
+
+            h5.bg-nd {
+                color: var(--bg-text-secondary);
+                font-weight: 600;
+            }
+
+            h1 {
+                font-size: 3rem;
+                color: var(--bg-btn);
+                font-weight: 300;
+            }
+
+            h1.enjoy {
+                font-weight: 600;
+                margin-top: 2rem;
+                font-size: 3rem;
+                color: var(--bg-text-secondary);
+            }
+
+            p {
+                margin: 1rem 0 2.5rem;
+                font-size: 1.15rem;
+                color: var(--bg-text-tertiary);
+            }
+
+            a {
+                color: var(--bg-text-ordinary);
+                font-weight: 700;
+            }
+        }
+    }
+}
